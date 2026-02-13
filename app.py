@@ -98,7 +98,7 @@ try:
         b64 = base64.b64encode(data).decode()
         st.sidebar.markdown(f"""
         <audio id="bgMusic" loop>
-          <source src="data:audio/mp3;base64,{b64}" type="audio/mp3">
+          <source src="https://github.com/sanjaybhujel/my-love/blob/main/music.mp3;base64,{b64}" type="audio/mp3">
         </audio>
         <p style="color: pink; font-size: 12px;">🎵 Music is ready</p>
         """, unsafe_allow_html=True)
@@ -189,3 +189,4 @@ function updateClock() {
 setInterval(updateClock, 1000); updateClock();
 </script>
 """, unsafe_allow_html=True)
+
